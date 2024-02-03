@@ -1696,7 +1696,7 @@ pre code {
 }
 .site-state-item-count {
   display: block;
-  font-size: 1em;
+  font-size: 0.875em;
   font-weight: 600;
 }
 .site-state-item-name {

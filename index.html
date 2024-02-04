@@ -222,7 +222,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2024-02-04 09:17:49 / 修改时间：16:50:08" itemprop="dateCreated datePublished" datetime="2024-02-04T09:17:49+08:00">2024-02-04</time>
+      <time title="创建时间：2024-02-04 09:17:49 / 修改时间：16:55:26" itemprop="dateCreated datePublished" datetime="2024-02-04T09:17:49+08:00">2024-02-04</time>
     </span>
 
   
@@ -232,7 +232,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>559</span>
+      <span>560</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -254,15 +254,14 @@
 <img data-src="/images/image-20240204092451201.png" alt="image-20240204092451201" style="zoom: 67%;" />
 
 <p>在博客页面上可以看到，无论是首页还是文章正文页面，都是正常显示的。但是，我在typora编辑器里，要保证能达到发布到博客后能正常显示图片，就不得不做一些处理，导致typora编辑文章时反而不能正常显示图片。</p>
-<p>原理是这样的：我在typora里设置图片处理如下：<br><img data-src="/images/image-20240204162950245.png" alt="image-20240204162950245" style="zoom:67%;" /></p>
-<center>typora设置</center>
-
-<p>然后每次粘贴图片在页面上时，他就会默认在当前md文件的相对路径创建一个images文件夹，并把图片复制到该目录下，再转换编辑页面中的图片链接形式为如下的相对路径：<br><img data-src="/images/image-20240204164441013.png" alt="image-20240204164441013"></p>
-<p>意思是md页面上显示图片时是需要加载它上一级目录下的images目录下的图片文件的，如果找不到就会显示异常。</p>
-<p>生成并部署到博客上时，博客的html页面的img元素的src属性和typora源文件的路径相同，也是相对路径。这就出现了一个问题，如果要让博客上的图片都正常加载，图片文件也必须在html页面的相对应的相对地址。但是这一条件只有首页的html能满足，归档和标签子页进入文章正文页时，对应的html的相对路径下并没有图片资源，这就导致正文页的图片显示异常。</p>
-<p>我想到一个解决方案，那就是把使用相对路径改成使用绝对路径（如下图）。因为blog的img显示图片时，会默认去路径前拼接项目的根路径，这就不需要关心页面和图片资源的相对地址，从而使得一份图片可以多次复用，使得每篇文章的图片都能正常显示。<br><img data-src="/images/image-20240204163604576.png" alt="image-20240204163604576"></p>
-<p>只不过这样在typora编辑器中修改路径后（去掉相对路径的两个”.“），编辑文章时图片就不能正常显示了。</p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2024/02/04/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 

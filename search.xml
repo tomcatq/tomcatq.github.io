@@ -4,7 +4,10 @@
     <title>测试图片显示</title>
     <url>/2024/02/04/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA/</url>
     <content><![CDATA[<p>以下测试图片显示功能</p>
-<p><img data-src="/./../images/image-20240204092451201.png" alt="image-20240204092451201"></p>
+<img data-src="./../images/image-20240204092451201.png" alt="image-20240204092451201" style="zoom: 67%;" />
+
+<figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="title">RawMaterialServices</span>(<span class="params">IMapper mapper, IHttpContextAccessor httpContextAccessor, IBaseRepository&lt;me_ply_Record&gt; <span class="keyword">record</span></span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    _mapper = mapper;</span><br><span class="line">    _httpContextAccessor = httpContextAccessor;</span><br><span class="line">    _record = <span class="keyword">record</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <tags>
         <tag>haha</tag>

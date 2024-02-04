@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-02-03T18:16:50.172Z</updated>
+  <updated>2024-02-04T01:04:18.516Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="http://example.com/2024/02/03/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
     <id>http://example.com/2024/02/03/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</id>
     <published>2024-02-02T17:42:32.000Z</published>
-    <updated>2024-02-03T18:16:50.172Z</updated>
+    <updated>2024-02-04T01:04:18.516Z</updated>
     
-    <content type="html"><![CDATA[<p>这是一篇测试文章。<br>以下测试插入图片：</p><img data-src="./../images/image-20240204014946532.png" alt="image-20240204014946532" style="zoom:50%;" />]]></content>
+    <content type="html"><![CDATA[<p>这是一篇测试文章。<br>以下测试插入图片：</p><img data-src="../images/测试文章/image-20240204014946532.png" alt="image-20240204014946532" style="zoom:50%;">]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;这是一篇测试文章。&lt;br&gt;以下测试插入图片：&lt;/p&gt;
-&lt;img data-src=&quot;./../images/image-20240204014946532.png&quot; alt=&quot;image-20240204014946532&quot; style=&quot;zoom:50%;&quot; /&gt;
+&lt;img data-src=&quot;../images/测试文章/image-20240204014946532.png&quot; alt=&quot;image-20240204014946532&quot; style=&quot;zoom:50%;&quot;&gt;
 
 </summary>
       

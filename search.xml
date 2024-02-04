@@ -10,7 +10,7 @@
 <span id="more"></span>
 
 <p>原理是这样的：我在typora里设置图片处理如下：<br><img data-src="/images/image-20240204162950245.png" alt="image-20240204162950245" style="zoom:67%;" /></p>
-<center>typora设置</center>
+<center style="font-size:12px;color:#C0C0C0;text-decoration:underline">typora设置</center>
 
 <p>然后每次粘贴图片在页面上时，他就会默认在当前md文件的相对路径创建一个images文件夹，并把图片复制到该目录下，再转换编辑页面中的图片链接形式为如下的相对路径：<br><img data-src="/images/image-20240204164441013.png" alt="image-20240204164441013"></p>
 <p>意思是md页面上显示图片时是需要加载它上一级目录下的images目录下的图片文件的，如果找不到就会显示异常。</p>
